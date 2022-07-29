@@ -38,3 +38,8 @@ The results overly lean towards land cover.
 Possibly it could be improved by further fine-tuning the network.
 
 It's hard to tell the differences in the backend of Tensorflow and MATLAB Deep Learning Toolbox.
+
+## Requirements
+
+- `tensorflow >= 2.9.1`
+- `scipy >= 1.8.1` (to interact with MATLAB mat files)
