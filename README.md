@@ -12,7 +12,7 @@ Then run `training.py` to train the network and store it in the `trainedNet` fol
 
 Categorical accuracy is `70.81%` compared with MATLAB's `78.64%`.
 
-### Difference between two implementations
+### Differences between two implementations
 >Note the `BatchNormalization` layers in Tensorflow and MATLAB behave differently.
 >
 >In MATLAB the parameters are determined by passing through the data once more and setting the `TrainedMean` and `TrainedVariance` properties to the mean and variance computed from the entire training dataset, respectively.
