@@ -36,3 +36,5 @@ Not quite desirable, it seems the network learns what it shouldn't learn (kind o
 The results overly lean towards land cover.
 
 Possibly it could be improved by further fine-tuning the network.
+
+It's hard to tell the differences in the backend of Tensorflow and MATLAB Deep Learning Toolbox.
