@@ -29,10 +29,6 @@ Finally run `feature_extraction.py` to obtain the features `features.mat`, equiv
 
 This part is not implemented; just use `features2clim.m` in the MATLAB repo.
 
-I could not find a Python SOM package that supports 3D SOM structure.
-
-Also tried modern methods like `t-sne` and `umap`, but did't come out good.
-
 The results are shown in `result_24kmeans.png` and `result_432som.png`.
 
 Not quite desirable, it seems the network learns what it shouldn't learn (kind of overfitting).
