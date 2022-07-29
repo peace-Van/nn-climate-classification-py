@@ -42,4 +42,4 @@ It's hard to tell the differences in the backend of Tensorflow and MATLAB Deep L
 ## Requirements
 
 - `tensorflow >= 2.9.1`
-- `scipy >= 1.8.1` (to interact with MATLAB mat files)
+- `scipy >= 1.8.1` (to interact with MATLAB `.mat` files)
