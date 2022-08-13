@@ -15,7 +15,7 @@ Categorical accuracy is `70.81%` compared with MATLAB's `78.64%`.
 ### Differences between two implementations
 >Note the `BatchNormalization` layers in Tensorflow and MATLAB behave differently.
 >
->In MATLAB the parameters are determined by passing through the data once more and setting the `TrainedMean` and `TrainedVariance` properties to the mean and variance computed from the entire training dataset, respectively.
+>In MATLAB the parameters are determined by passing through the data once more after training and setting the `TrainedMean` and `TrainedVariance` properties to the mean and variance computed from the entire training dataset, respectively.
 >
 >In Tensorflow it is calculated by moving statistics of the dataset during training.
 >
